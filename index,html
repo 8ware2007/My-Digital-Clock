@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Digital Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <header>
+      <div class="logo">MY DIGITAL CLOCK</div>
+      <div class="live"><span></span> LIVE</div>
+    </header>
+
+    <section class="clock-card">
+      <p class="label">CURRENT TIME</p>
+
+      <div id="clock" class="clock">00:00:00</div>
+
+      <div id="date" class="date">
+        2026年1月1日（木）
+      </div>
+
+      <div class="divider"></div>
+
+      <p class="message" id="greeting">
+        Have a wonderful day.
+      </p>
+    </section>
+
+    <section class="settings">
+      <button id="formatBtn">24時間表示</button>
+      <button id="themeBtn">☀ ライトモード</button>
+    </section>
+
+    <footer>
+      <p>Designed with HTML / CSS / JavaScript</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
